@@ -383,7 +383,8 @@ const TextGeneration = () => {
 
   const renderRes = (task?: Task) => (
     <Result
-      isWorkflow={IS_WORKFLOW}
+      // isWorkflow={IS_WORKFLOW}
+      isWorkflow="false"
       isCallBatchAPI={isCallBatchAPI}
       isPC={isPC}
       isMobile={isMobile}
